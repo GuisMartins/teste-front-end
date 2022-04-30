@@ -1,0 +1,32 @@
+/*|---------------|App Color Schema|---------------*/
+$WHITE: #FFF;
+$GRAY1:#9F9F9F;
+$GRAY2:#E5E5E5;
+$BLACK:#4D4D4D;
+
+$PRINCIAL: #FBB900;
+$SUPORTE: #F0D075;
+$BACKGROUND:#FEF6E7;
+
+/*|---------------|BREAKPOINTS|---------------*/
+
+// Usage example:  @media #{$BREAKPOINT-DESK}
+
+// $BREAKPOINT-DESK: "only screen and (min-width: 1280px)";
+// $BREAKPOINT-TABLET-LAND: "only screen and (min-width: 975px)";
+// $BREAKPOINT-TABLET: "only screen and (min-width: 600px)";
+// $BREAKPOINT-MOBILE-LAND: "only screen and (min-width: 480px)";
+
+/*|---------------|MIXINS|---------------*/
+
+// @mixin margin-page { 
+//   width: calc(100% - 7rem); 
+//   margin: auto;
+
+//   @media #{$BREAKPOINT-DESK} {
+//     max-width: 73rem;
+//   }
+//   @media #{$BREAKPOINT-MOBILE-LAND} {
+//     max-width: 30rem;
+//   }
+// }

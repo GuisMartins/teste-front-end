@@ -1,0 +1,148 @@
+footer{
+  background-color: $PRINCIAL;
+  height: 37.75rem;
+  display: flex;
+  h3{
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  p, li{
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  h3, h4, p, li{
+    color: $WHITE;
+  }
+
+  ul {
+    li{
+    list-style: none;
+    }
+  }
+
+  .socialMedia{
+    width: 30.56rem;   
+    border-right: 1px solid $WHITE;
+    
+    h3{
+      width: 19.93rem;      
+      text-align: center;
+      margin: 3rem auto 0 auto;
+    } 
+
+    &__img{
+     width: 8.125rem;
+     height: 22px;
+     margin: auto;
+    
+     figure{
+       display: flex;
+       justify-content: space-between;
+       margin: 32px auto 56px auto;
+      }  
+    }
+    &__text{
+      p{
+        width: 339px;
+        margin: 24px auto 62px auto;
+        text-align: center;
+      }
+    }
+  }
+
+  .menu{
+    height: 291px;
+    display: flex;
+    margin-left: 56px;
+    padding-top: 56px;
+    justify-content: space-between;
+
+    &__parceiro{
+      
+    }
+
+    &__institucional{
+      ul{
+        li{
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    &__atendimento{
+      margin-right: 62px;
+      ul{
+        li{
+          margin-bottom: 15px;
+        }
+      }
+    }
+    
+  }
+
+  .methods{
+    height: 179px;
+    display: flex;
+    align-items: center;
+    
+    &__payment{
+      width: 248px;
+      margin: auto 178px auto 56px;
+      
+      figure{
+        width: 229px;       
+        height: 38.12px;
+        display: flex;
+        justify-content: space-between;
+
+        img{
+          width: 66.26px;
+        }
+      }
+
+      figure + figure{
+        margin-top: 8.76px;
+      }
+
+    }
+
+  }
+
+  .credits{
+    display: flex;
+    height: 134px;
+    width: 791px;
+    border-top: 1px solid $WHITE;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    &__cnpj{
+      margin-left: 56px;
+      p{
+        font-size: 12px;
+      }
+    }
+
+    &__logo{
+      
+      height: 32px;
+      
+      figure{
+        img + img{
+          margin:auto 55.92px auto 36px;
+        }
+      }
+    }
+    
+  }
+}
